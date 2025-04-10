@@ -185,6 +185,15 @@ a {
 	margin-left: 250px
 
 }
+.table-search {
+	width: 25%;
+	margin-top: 10px;
+	margin-left: 70%;
+}
+
+.round-pagination {
+	margin-left: 65%;
+}
 
 .page-content {
 
@@ -195,8 +204,11 @@ a {
 .page-footer {
 
 	background: rgb(0 0 0 / 20%);
+	bottom: 0;
+	width: 100%;
+	margin-top: 20px;
+	position: fixed;
 
-	position: absolute;
 
 	left: 250px;
 

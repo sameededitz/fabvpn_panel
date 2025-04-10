@@ -1,8 +1,6 @@
 @extends('layouts.app')
 @section('content')
     <!--start page wrapper -->
-    <div class="page-wrapper">
-        <div class="page-content">
             <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
                 <div class="col">
                     <div class="card radius-10">
@@ -1210,7 +1208,5 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
     <!--end page wrapper -->
 @endsection
