@@ -1,6 +1,7 @@
-
+@extends('layouts.app')
+@section('content')
 <div>
-    <div class="row layout-top-spacing" wire:init="fetchServerUsage" wire:poll.visible.10s="fetchServerUsage">
+    <div class="row layout-top-spacing">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-end">
             {{-- <button class="btn btn-outline-primary btn-lg me-3">Loading <svg> ... </svg></button> --}}
             <button type="button" wire:click="fetchServerUsage"
@@ -135,7 +136,7 @@
     </div>
 
 </div>
-@script
+{{-- @script
     <script>
         setTimeout(() => {
             function extractNumber(value) {
@@ -219,4 +220,5 @@
             });
         });
     </script>
-@endscript
+@endscript --}}
+@endsection
