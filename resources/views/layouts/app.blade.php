@@ -9,7 +9,11 @@
     <div class="wrapper">
         @include('partial.sidebar')
         @include('partial.header')
+        <div class="page-wrapper">
+            <div class="page-content">
         @yield('content')
+            </div>
+        </div>
         @include('partial.footer')
     </div>
 </body>

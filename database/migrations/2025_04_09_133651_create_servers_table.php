@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('servers', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->boolean('android')->default(false);
+            $table->boolean('ios')->default(false);
+            $table->boolean('macos')->default(false);
+            $table->boolean('windows')->default(false);
+            $table->enum('type', ['free', 'premium'])->default('free'); // Free or Premium Server
+            $table->enum('status', ['active', 'inactive'])->default('inactive'); // Active or Inactive
             $table->timestamps();
         });
     }
