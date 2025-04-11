@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('content')
-
-	<!--breadcrumb-->
+    <!--breadcrumb-->
     <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
         <div class="breadcrumb-title pe-3">Fab VPN</div>
         <div class="ps-3">
@@ -23,9 +22,10 @@
     <div class="row">
         <div class="col-xl-9 mx-auto">
             <h6 class="mb-0 text-uppercase">Plans</h6>
-            <hr/>
+            <hr />
             <div class="card">
-                <input type="text" class="form-control table-search search-control" placeholder="Type to search..."> <span class="position-absolute top-50 search-show translate-middle-y"><i class='bx bx-search'></i></span>
+                <input type="text" class="form-control table-search search-control" placeholder="Type to search...">
+                <span class="position-absolute top-50 search-show translate-middle-y"><i class='bx bx-search'></i></span>
                 <div class="card-body">
                     <table class="table mb-0">
                         <thead>
@@ -52,7 +52,7 @@
                                 <td>Mark</td>
                             </tr>
                         </tbody>
-                       
+
                     </table>
                 </div>
                 <nav aria-label="Page navigation form-pagination">
@@ -72,5 +72,4 @@
             </div>
         </div>
     </div>
-    
 @endsection
